@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Page</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Your Name" />
+	<!-- Embedded Style-->
+	<style>
+	/* Embedded Style*/
+
+	/*
+
+	selectrolist{
+	property:value;
+		.
+		.
+		.
+	}
+	*/
+/* Tag type Selector*/
+	body{
+		background-image:url('images/bg.jpg');
+		margin:0px;
+		color:#ccddcc !important;
+	}
+
+	/* ID SElector*/
+	#wrapper{
+		width:960px;
+		min-height:1000px;
+		background-color:#ffffff;
+		border-right: 3px solid #ff0000; 
+		border-left: 3px solid #ff0000;
+		margin:auto auto; 
+	}
+/* Class Selector*/
+	.myheading{
+		font-size:30px;
+		font-weight:bolder;
+		font-variant:small-caps;
+		text-decoration: overline;
+	}
+	</style>
+</head>
+<body style="margin:0px; background-color:#000000; color:#ffffff">
+	
+<div id="wrapper">
+	<h1 class="myheading">Welcome to the Site</h1>
+</div>
+
+	<a name="top">
+	Hi this me.
+
+	<hr/>
+	<!-- 
+	<a> Anchor Name   </a>
+	Attributes
+	href="path"
+	title="Title of the Link"
+	name="some name"
+	target="_blank/_parent/_self"
+
+	-->
+
+	<a href="index.html" title="Home">Home</a>
+	<a href="about.html" title="Home">About</a>
+	<a href="contact.html" title="Home">Contact</a>
+
+	<a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla</a>
+
+	<a href="mailto:dharma@bitsi.com.np?subject='Message from Site'">Email Us</a>
+
+
+	<hr/>
+	<h1 align="center">Welcome to the Site</h1>
+	<blockquote><blockquote><p align="justify" style="font-size:20px; font-weight:bolder; font-variant:small-caps; border-bottom:3px solid #ff0000;">Hello this is <b>my paragraph</b>. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my graph. <i>Hello </i>this is my paragraph. <em>Hello</em> this is my paragraph. Hello this is my  graph. Hello this is my <s>paragraph</s>. Hello this is my paragraph. Hello this is my  graph. Hello this is my <del>paragraph. </del>Hello this is my paragraph. 
+		<br/>Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. 
+	</p></blockquote></blockquote>
+
+<hr/>
+	<p align="right">Hello this is <b>my paragraph</b>. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my  graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my graph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. Hello this is my paragraph. 
+	</p>
+	<h3>SuperScript</h3>
+	(A+B)<sup>2</sup>=A<sup>2</sup>+2AB+B<sup>2</sup>
+
+<a name="wmf">
+	<h2>Water Molecular Formula</h2>
+	H<sub>2</sub>O
+
+	<hr>
+	<h1>Order list</h1>
+	<h3>Name of the Countires</h3>
+	<!-- Attribuest of OL
+		1. type="1/A/a/i/I"
+		2. start="4"
+
+	-->
+	<ol type="A" start=4>
+		<li>Nepal</li>
+		<li>India</li>
+		<li>Pakistan</li>
+		<li>Afganisthan</li>
+	</ol>
+
+	<!-- Generate the following OUtput
+
+		E Nepal
+		  i Kathmandu
+		    a Baneshwor
+		    b Thapathali
+		    c Sundhara
+		  ii Lalitpur
+		    a Kumaripati
+		F India
+		G Pakistan
+
+	-->
+
+	<ol type="A" start="5">
+		<li>Nepal
+			<ol type="i">
+				<li>Kathmandu
+					<ol type="a">
+						<li>Baneshowr</li>
+						<li>Thapathali</li>
+						<li>Sundahra</li>
+
+					</ol>
+				</li>
+				<li>Lalitpur
+					<ol type="a">
+						<li>Kumaripati</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li>India</li>
+		<li>Pakistan
+	</ol>
+
+
+	<!-- Unorder List-->
+	<!-- Attributes
+
+		# type= "disc/circle/square"
+
+	-->
+	<ul>
+		<li>Mouse</li>
+		<li>Keyboard</li>
+		<li>Joystick</li>
+		<li>MICR</li>
+		<li>OCR</li>
+	</ul>
+
+
+	<!-- Defination List
+
+		<dl>
+			<dt>  </dt>
+				<dd>   </dd>
+			<dt>   <dt>
+				<dd>  <dd>
+		</dl>
+DL - Defination List
+dt - Definatil Title
+dd - defination data
+	-->
+
+	<dl>
+		<dt>Computer</dt>
+		<dd>A computer is an electronic devices....</dd>
+		<dt> Mouse</dt>
+		<dd>A mouse is an pointing device....</dd>
+	</dl>
+
+
+<!-- Inserting Graphics-->
+  <!-- 
+
+  	<img />
+  	Attributes
+
+  	1. src ="path filename.ext"
+  	2. width =" px or %"
+  	3. Height
+  	4. alt ="Alternative Text"
+  	5. title= "Title of the Image"
+  	6. align="left/right"
+  	7. hsapce="1px"
+  	8. vspace="3px"
+  	9. border="0px"
+  	10. bordercolor="#cccccc"
+-->
+<p>
+<img src="images/col.jpg" alt="Nepal Airlines" title="Nepal Airlines" align="right" hspace="10px" vspace="10px" />
+
+This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. This is my demo text. 
+</p>
+
+<br/>
+<hr/>
+<p align="right"><a href="index.html#top">^TOP</a>
+
+<a href="#wmf">WMF</a></p>
+
+
+
+
+
+
+
+</body>
+</html> 
