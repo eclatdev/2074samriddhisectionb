@@ -1,3 +1,9 @@
+/* Reset */
+*{
+	margin:0px;
+	padding:0px;
+}
+
 body{
 	magrin:0px;
 	padding:0px;
@@ -5,7 +11,22 @@ body{
 	background-image:url('images/bg.jpg');
 	background-repeat:no-repeat;
 	background-attachment: fixed;
-	background-size:cover;
+	background-size:cover;}
+
+.social{
+	position:fixed;
+	right:0px;
+	top:300px;
+	z-index:9999;
+	width:50px;
+	height:150px;
+	background-color:#ff0000;
+}
+
+.social i{
+	font-size:25px;
+	margin-left:5px;
+	color:#ffffff;
 }
 
 .container{ 
@@ -40,3 +61,42 @@ body{
 	clear:both;
 }
 
+.row{
+	min-height:1px;
+}
+.hr{
+	border-bottom:1px groove #ff0000;
+}
+
+.col100{
+	width:100%;	min-height:50px;
+}
+.col50{
+	width:49%;	min-height:50px;	float:left;
+}
+.col75{
+	width:73%;
+	min-height:50px; float:left;
+}
+.col25{
+	width:24%;	min-height:50px; float:left;
+}
+
+.banner{
+	background-image: url('images/banner.jpg');
+	width:960px;
+	height:150px;
+	background-repeat: no-repeat;
+}
+
+
+.highlight img{
+	border-radius:0px 20px 0px 20px;
+	opacity:1;
+}
+
+.highlight img:hover{
+	opacity:0.7;
+	border-bottom:3px groove #ccddcc;
+	border-right:3px groove #ccddcc;
+}
